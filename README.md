@@ -1,1 +1,0 @@
-# coil-sdg14-gallery
