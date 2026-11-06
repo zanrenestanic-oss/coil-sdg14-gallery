@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560">
-<rect width="800" height="560" fill="#0d6575"/>
-<path d="M0 350 Q180 290 360 350 T720 350 T1080 350 V560 H0Z" fill="#063e58" opacity=".8"/>
-<circle cx="620" cy="125" r="62" fill="#bce9d9" opacity=".7"/>
-<path d="M0 390 Q160 340 320 390 T640 390 T960 390" fill="none" stroke="#a4e4df" stroke-width="9" opacity=".7"/>
-<g fill="#f2d28b" opacity=".9"><path d="M170 280q45-40 90 0q-45 40-90 0zm90 0 35-28v56z"/></g>
-<text x="48" y="475" fill="#fff" font-family="Arial,sans-serif" font-size="34" font-weight="bold">Our research</text>
-<text x="50" y="515" fill="#ccebe5" font-family="Arial,sans-serif" font-size="17">SAMPLE ILLUSTRATION — REPLACE WITH YOUR PHOTO</text>
-</svg>

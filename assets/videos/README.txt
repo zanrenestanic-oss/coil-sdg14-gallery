@@ -1,1 +1,0 @@
-Add your presentation videos here (for example student-a.mp4 and student-b.mp4), or embed YouTube videos in index.html. Replace all video placeholders before submission.\n
