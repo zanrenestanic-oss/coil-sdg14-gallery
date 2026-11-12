@@ -12,9 +12,9 @@ Spletna galerija za **SDG 14 – Life Below Water**, s poudarkom na onesnaževan
 - odziven prikaz za telefon in računalnik.
 
 ## Pomembno – fotografije za oddajo
-Galerija trenutno vsebuje šest vzorčnih fotografij in šest vzorčnih ilustracij. To so samo primeri za prikaz postavitve in **ne štejejo kot originalne fotografije**. Navodila zahtevajo najmanj 12 originalnih fotografij skupaj: **vsak dijak mora prispevati vsaj 6 svojih fotografij**.
+Galerija trenutno vsebuje 12 različnih ilustrativnih slik, ki se ujemajo z naslovi kartic (morske živali, koralni grebeni, meduze, onesnaženje s plastiko, ponovna uporaba in čiščenje plaž). Slike so pripravljene za prikaz spletne strani, vendar **ne štejejo kot vajine originalne fotografije**. Če navodila zahtevajo lastne posnetke, morata še vedno dodati najmanj 12 originalnih fotografij skupaj: **vsak dijak vsaj 6 svojih fotografij**.
 
-Fotografije shranita v `assets/images/` in v `gallery-data.js` pri vsaki od 12 kartic spremenita `src`, `title`, `description` in `author`. Uporabita različna imena datotek, na primer `student-a-01.jpg` do `student-a-06.jpg` in `student-b-01.jpg` do `student-b-06.jpg`.
+Če bosta dodajala lastne fotografije, jih shranita v `assets/images/` in v `gallery-data.js` pri ustreznih karticah spremenita `src`, `title`, `description` in `author`. Uporabita različna imena datotek, na primer `student-a-01.jpg` do `student-a-06.jpg` in `student-b-01.jpg` do `student-b-06.jpg`.
 
 ## Razdelitev dela
 | Dijak A | Dijak B |
