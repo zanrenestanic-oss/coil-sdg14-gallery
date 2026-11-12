@@ -1,93 +1,47 @@
 # COIL – SDG 14: Life Below Water
 
-Ta mapa vsebuje prilagojeno predlogo interaktivne spletne galerije za **14. cilj trajnostnega razvoja (SDG 14 – Life Below Water)**. Tema projekta je **onesnaževanje oceanov s plastiko**.
+Spletna galerija za **SDG 14 – Life Below Water**, s poudarkom na onesnaževanju oceanov s plastiko. Spletna stran je v angleščini, kot zahtevajo navodila projekta.
 
-> Pomembno: po navodilih iz izvirne predloge mora biti končna spletna stran v angleščini. Besedila na strani so zato pripravljena v angleščini; ta README vsebuje navodila v slovenščini.
-
-## Kaj je že pripravljeno?
-- naslovnica za SDG 14;
-- razlaga problema onesnaževanja morja s plastiko;
-- galerija z 12 vzorčnimi ilustracijami in filtri;
-- povečevanje fotografij v galeriji;
-- interaktivno križanko z izrazi, povezanimi s SDG 14;
-- demonstracijska anketa z grafičnim prikazom rezultatov;
-- predlogi rešitev in dejanj;
-- časovnica nastajanja projekta;
-- ločena predstavitev dijaka A in dijaka B;
-- mesta za oba predstavitvena videa in video o nastajanju projekta;
+## Kaj je pripravljeno?
+- naslovnica in uvod v SDG 14;
+- razlaga vpliva plastičnega onesnaževanja na morsko življenje;
+- galerija z 12 različnimi vizualnimi primeri, filtri in povečevanjem slik;
+- interaktivna križanka o oceanih in morskem življenju;
+- demonstracijska anketa;
+- predlogi ukrepov, časovnica in predstavitev obeh dijakov;
 - odziven prikaz za telefon in računalnik.
 
-## 1. Fotografije – obvezno
-V mapi `assets/images/` zamenjajta vzorčne datoteke `sample-01.svg` do `sample-12.svg` s svojimi fotografijami. Predlagana imena:
-- dijak A: `student-a-01.jpg` do `student-a-06.jpg`;
-- dijak B: `student-b-01.jpg` do `student-b-06.jpg`.
+## Pomembno – fotografije za oddajo
+Galerija trenutno vsebuje šest vzorčnih fotografij in šest vzorčnih ilustracij. To so samo primeri za prikaz postavitve in **ne štejejo kot originalne fotografije**. Navodila zahtevajo najmanj 12 originalnih fotografij skupaj: **vsak dijak mora prispevati vsaj 6 svojih fotografij**.
 
-Nato v `gallery-data.js` popravita `src`, naslov, opis in avtorja pri vsaki fotografiji. Ohranita najmanj 6 originalnih fotografij na dijaka. Vzorčne ilustracije niso fotografije in ne štejejo v obvezno kvoto.
+Fotografije shranita v `assets/images/` in v `gallery-data.js` pri vsaki od 12 kartic spremenita `src`, `title`, `description` in `author`. Uporabita različna imena datotek, na primer `student-a-01.jpg` do `student-a-06.jpg` in `student-b-01.jpg` do `student-b-06.jpg`.
 
-## 2. Razdelitev dela
+## Razdelitev dela
 | Dijak A | Dijak B |
 |---|---|
-| Pripravi uvodno predstavitev SDG 14. | Pripravi raziskani opis onesnaževanja oceanov s plastiko. |
-| Prispeva najmanj 6 lastnih fotografij. | Prispeva najmanj 6 lastnih fotografij. |
-| Uredi naslovnico in prvi del galerije. | Uredi drugi del galerije in zaključek. |
-| Sodeluje pri interaktivni vsebini in testiranju. | Sodeluje pri interaktivni vsebini in testiranju. |
-| Doda svoj predstavitveni video. | Doda svoj predstavitveni video. |
+| Uvodna predstavitev SDG 14. | Opis izbranega problema – plastično onesnaževanje morja. |
+| Najmanj 6 lastnih fotografij. | Najmanj 6 lastnih fotografij. |
+| Naslovnica in prvi del galerije. | Drugi del galerije in zaključek. |
+| Sodelovanje pri interaktivnih vsebinah. | Sodelovanje pri interaktivnih vsebinah. |
+| Lasten predstavitveni video. | Lasten predstavitveni video. |
 
-Skupaj načrtujta videz strani, preverita kviz, anketo, filtre, fotografije in mobilni prikaz.
+Skupaj načrtujta videz strani, preizkusita križanko, anketo, filtre in mobilni prikaz ter pripravita končno predstavitev.
 
-## 3. Videoposnetki
-V `index.html` poiščita mesta `Project video`, `Introduction video A` in `Introduction video B`. Zamenjajta nadomestne bloke z vdelavo videa. Za YouTube uporabita URL za embed, na primer:
+## Videoposnetki in imena
+V `index.html` zamenjajta oznaki Student A / Student B z vajinima imenoma in dodajta oba predstavitvena videa. Dodajta tudi video o nastajanju projekta, če ga zahteva učitelj. Video lahko vdelata z YouTube iframe ali dodata optimizirano datoteko MP4 v `assets/videos/`.
 
-```html
-<iframe src="https://www.youtube-nocookie.com/embed/VIDEO_ID"
-        title="Student A introduction" loading="lazy"
-        allowfullscreen></iframe>
-```
+## Interaktivne vsebine
+- Križanka preveri odgovore v brskalniku.
+- Anketa je demonstracijska; rezultati se shranjujejo samo v trenutnem brskalniku in se ne združujejo med obiskovalci.
+- Galerijski filtri in povečevanje fotografij delujejo lokalno v brskalniku.
 
-Za lokalni MP4 lahko uporabita:
+## GitHub Pages
+Repozitorij mora biti javen. V GitHubu odprite **Settings → Pages** in izberite:
+- Source: **Deploy from a branch**
+- Branch: **main**
+- Folder: **/(root)**
 
-```html
-<video controls preload="metadata">
-  <source src="assets/videos/student-a.mp4" type="video/mp4">
-</video>
-```
-
-Datoteke dodajta v `assets/videos/`. Video naj bo optimiziran, da ni prevelik.
-
-## 4. Prilagoditev vsebine
-- V `index.html` dodajta imeni, lokalne primere, zaključek in vire.
-- V `gallery-data.js` vnesita svojih 12 fotografij in opise. Trenutne slike so AI-generirane ilustracije za predogled; ne štejejo kot vajine originalne fotografije.
-- Križanka je že pripravljena v `index.html`; odgovore in namige lahko uredita v vrsticah z razredom `crossword-entry`.
-- Anketa je demonstracijska: glasovi se shranjujejo samo v trenutnem brskalniku (`localStorage`), ne pa skupno za vse obiskovalce.
-- V `style.css` lahko spremenita barve in oblikovanje.
-
-## 5. GitHub – sodelovanje v paru
-1. Dijak A ustvari javni (*Public*) repozitorij.
-2. Naloži vsebino te mape, tako da je `index.html` neposredno v korenu repozitorija.
-3. V `Settings → Collaborators` povabi dijaka B.
-4. Dijak B sprejme povabilo.
-5. Vsak lahko dela v svoji veji (*branch*) in spremembe pošlje prek *Pull Requesta*.
-6. Skupaj pregledata in združita spremembe (*Merge*).
-
-## 6. GitHub Pages
-V repozitoriju odprite `Settings → Pages`. Pri *Build and deployment* izberite:
-- Source: `Deploy from a branch`
-- Branch: `main`
-- Folder: `/(root)`
-
-Kliknite **Save**. Počakajta nekaj minut. Stran bo običajno dosegljiva na `https://UPORABNIK.github.io/IME-REPOZITORIJA/`.
-
-## 7. Končni pregled pred oddajo
-- [ ] Stran je v angleščini.
-- [ ] Tema in vsebina se nanašata na SDG 14.
-- [ ] Dijak A je dodal vsaj 6 svojih fotografij.
-- [ ] Dijak B je dodal vsaj 6 svojih fotografij.
-- [ ] V galeriji so pravilni naslovi, opisi in avtorji.
-- [ ] Dodana sta oba predstavitvena videa.
-- [ ] Dodan je video o nastajanju projekta, če ga zahtevajo navodila.
-- [ ] Kviz, anketa, filtri in povečevanje slik delujejo.
-- [ ] Stran je preizkušena na telefonu in računalniku.
-- [ ] Dodani so zanesljivi viri.
+Datoteka `index.html` mora ostati v korenski mapi repozitorija. Po shranjevanju počakajta nekaj minut, da se objava osveži.
 
 ## Viri za raziskovanje
 - UN SDG 14: https://sdgs.un.org/goals/goal14
