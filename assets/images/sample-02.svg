@@ -1,9 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560">
-<rect width="800" height="560" fill="#2c7180"/>
-<path d="M0 350 Q180 290 360 350 T720 350 T1080 350 V560 H0Z" fill="#063e58" opacity=".8"/>
-<circle cx="620" cy="125" r="62" fill="#bce9d9" opacity=".7"/>
-<path d="M0 390 Q160 340 320 390 T640 390 T960 390" fill="none" stroke="#a4e4df" stroke-width="9" opacity=".7"/>
-<g fill="#f2d28b" opacity=".9"><path d="M170 280q45-40 90 0q-45 40-90 0zm90 0 35-28v56z"/></g>
-<text x="48" y="475" fill="#fff" font-family="Arial,sans-serif" font-size="34" font-weight="bold">Marine wildlife</text>
-<text x="50" y="515" fill="#ccebe5" font-family="Arial,sans-serif" font-size="17">SAMPLE ILLUSTRATION — REPLACE WITH YOUR PHOTO</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560"><defs><linearGradient id="b" x2="0" y2="1"><stop stop-color="#39b9d9"/><stop offset="1" stop-color="#063b68"/></linearGradient></defs><rect width="800" height="560" fill="url(#b)"/><path d="M0 440 Q140 380 260 435 T520 425 T800 430 V560 H0Z" fill="#07516c"/><g fill="#f6a33a"><path d="M80 160 q95 -75 190 0 q-95 75 -190 0Z"/><path d="M270 330 q70 -52 140 0 q-70 52 -140 0Z"/></g><g fill="#fff"><path d="M130 105 l-50 55 50 55Z"/><path d="M340 295 l-40 35 40 35Z"/></g><g fill="#f5f6e9"><path d="M80 160 q35 -72 70 0 q-35 72 -70 0Z"/><path d="M270 330 q28 -50 56 0 q-28 50 -56 0Z"/></g><g fill="#e6f4f3"><path d="M430 220 q100 -110 210 0 q-110 110 -210 0Z"/><path d="M620 220 l95 -65 -20 65 20 65Z"/></g><circle cx="490" cy="210" r="7" fill="#083d62"/><path d="M450 220 q35 22 75 0" fill="none" stroke="#083d62" stroke-width="5"/><g fill="#f5b23c"><circle cx="600" cy="380" r="16"/><circle cx="660" cy="420" r="12"/><circle cx="720" cy="360" r="14"/></g><g fill="none" stroke="#b6eff1" stroke-width="5" opacity=".7"><path d="M70 60 q20 -18 40 0 t40 0"/><path d="M600 90 q20 -18 40 0 t40 0"/></g></svg>
