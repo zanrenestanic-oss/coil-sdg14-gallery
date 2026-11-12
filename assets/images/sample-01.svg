@@ -1,9 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560">
-<rect width="800" height="560" fill="#145b75"/>
-<path d="M0 350 Q180 290 360 350 T720 350 T1080 350 V560 H0Z" fill="#063e58" opacity=".8"/>
-<circle cx="620" cy="125" r="62" fill="#bce9d9" opacity=".7"/>
-<path d="M0 390 Q160 340 320 390 T640 390 T960 390" fill="none" stroke="#a4e4df" stroke-width="9" opacity=".7"/>
-<g fill="#f2d28b" opacity=".9"><path d="M170 280q45-40 90 0q-45 40-90 0zm90 0 35-28v56z"/></g>
-<text x="48" y="475" fill="#fff" font-family="Arial,sans-serif" font-size="34" font-weight="bold">Plastic on shore</text>
-<text x="50" y="515" fill="#ccebe5" font-family="Arial,sans-serif" font-size="17">SAMPLE ILLUSTRATION — REPLACE WITH YOUR PHOTO</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560"><defs><linearGradient id="s" x2="0" y2="1"><stop stop-color="#f6d89a"/><stop offset="1" stop-color="#e9a66d"/></linearGradient><linearGradient id="w" x2="0" y2="1"><stop stop-color="#36c5d8"/><stop offset="1" stop-color="#07527b"/></linearGradient></defs><rect width="800" height="560" fill="#f4d8a4"/><circle cx="650" cy="95" r="58" fill="#fff1c2"/><path d="M0 210 Q180 160 360 210 T800 205 V560 H0Z" fill="url(#w)"/><path d="M0 205 Q180 175 360 205 T800 200" fill="none" stroke="#e9fbf5" stroke-width="9"/><path d="M0 200 Q170 150 350 195 T800 190 L800 225 Q600 255 400 225 T0 235Z" fill="#e7c18b"/><g transform="translate(180 300) rotate(-14)"><rect x="0" y="0" width="65" height="145" rx="13" fill="#e7f2f4" stroke="#fff" stroke-width="8"/><rect x="18" y="-17" width="30" height="23" rx="4" fill="#e84f48"/><path d="M10 42 H55" stroke="#9bc6ce" stroke-width="7"/></g><path d="M470 280 q60 -38 118 0 l-18 70 q-40 22 -80 0Z" fill="#f4f0e4" stroke="#d7e6e6" stroke-width="7"/><path d="M470 280 q55 -65 118 0" fill="none" stroke="#d7e6e6" stroke-width="8"/><g fill="#fff" opacity=".8"><circle cx="120" cy="390" r="5"/><circle cx="700" cy="420" r="7"/><circle cx="350" cy="460" r="4"/></g><path d="M0 495 Q170 465 340 500 T800 490 V560 H0Z" fill="#e7c18b"/></svg>
