@@ -16,3 +16,20 @@
 .crossword-feedback{font-weight:700;color:#0b6280;min-height:1.5em}
 .crossword-note{font-size:.88rem;color:#607985;margin-top:12px}
 @media(max-width:760px){.crossword-layout{grid-template-columns:1fr}.crossword-entry input{width:29px;height:35px}}
+
+/* Interlocking crossword board */
+.crossword-real{grid-template-columns:minmax(260px,1fr) minmax(220px,.85fr);align-items:start}
+.crossword-board-wrap{overflow-x:auto;padding:12px 4px}
+.crossword-grid{display:flex;flex-direction:column;width:max-content;margin:0 auto}
+.crossword-row{display:flex}
+.crossword-square{position:relative;width:clamp(27px,3.2vw,38px);height:clamp(27px,3.2vw,38px);background:#f5fbfd;border:1px solid #8bb8c7;display:grid;place-items:center}
+.crossword-black{background:#103c53;border-color:#103c53}
+.crossword-square input{width:100%;height:100%;border:0;background:transparent;text-align:center;text-transform:uppercase;font-weight:800;font-size:clamp(14px,1.7vw,19px);color:#083d58;padding:0;outline:none}
+.crossword-square input:focus{background:#d9f3ff;box-shadow:inset 0 0 0 2px #0788b8}
+.crossword-square input.correct{background:#d7f4e4;color:#14653d}
+.crossword-square input.incorrect{background:#ffe1df;color:#9d302b}
+.crossword-number{position:absolute;left:2px;top:0;font-size:9px;line-height:1;color:#17627b;pointer-events:none;z-index:1}
+.crossword-clues .crossword-group{margin-bottom:18px}
+.crossword-clues .crossword-group p{font-size:13px;line-height:1.45;margin:8px 0;color:#425e6a}
+.crossword-clues .crossword-group p b{color:#087e9c;margin-right:6px}
+@media(max-width:760px){.crossword-real{grid-template-columns:1fr}.crossword-square{width:31px;height:31px}}
