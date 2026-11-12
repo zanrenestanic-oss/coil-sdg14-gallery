@@ -11,7 +11,7 @@ const galleryPhotos = [
  {src:"assets/images/sample-01.svg",title:"Plastic pollution on the shore",description:"Sample illustration about waste reaching the coastline. Replace with an original photograph.",category:"challenge",author:"Sample illustration"},
  {src:"assets/images/sample-02.svg",title:"Marine wildlife",description:"Sample illustration about animals living in the ocean. Replace with an original photograph.",category:"challenge",author:"Sample illustration"},
  {src:"assets/images/sample-03.svg",title:"Litter carried by rivers",description:"Sample illustration showing how litter can travel from rivers to the sea. Replace with an original photograph.",category:"challenge",author:"Sample illustration"},
- {src:"assets/images/sample-04.svg",title:"Our research process",description:"Sample illustration for documenting the project. Replace with an original photograph.",category:"behind",author:"Sample illustration"},
+ {src:"assets/images/sample-04.svg",title:"Jellyfish drifting through the ocean",description:"A jellyfish moves gently through the blue water, showing the variety of life found beneath the ocean surface.",category:"solutions",author:"Sample illustration"},
  {src:"assets/images/sample-05.svg",title:"Reusable everyday choices",description:"Sample illustration showing ways to reduce single-use plastic. Replace with an original photograph.",category:"solutions",author:"Sample illustration"},
  {src:"assets/images/sample-06.svg",title:"A community beach clean-up",description:"Sample illustration about taking action to protect the coast. Replace with an original photograph.",category:"solutions",author:"Sample illustration"}
 ];
