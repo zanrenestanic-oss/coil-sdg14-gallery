@@ -40,3 +40,43 @@
 @media(max-width:640px){.video-slot.video-embed iframe{min-height:190px}}
 
 .video-caption{margin:22px 0 10px;color:#16485b;font-size:16px;font-weight:750}
+
+/* Brighter ocean-inspired visual refresh. Image and video sources are intentionally untouched. */
+:root{--ink:#12394a;--green:#07566a;--lime:#ffe07a;--cream:#f3fbff;--muted:#54717d;--line:#cce5ed}
+body{background:linear-gradient(180deg,#f4fbff 0%,#fffaf0 48%,#f1fbf8 100%);color:var(--ink)}
+.nav{background:rgba(239,250,255,.96);border-bottom:1px solid #c6e7ee;box-shadow:0 5px 22px rgba(5,75,100,.07)}
+.brand-mark{background:linear-gradient(135deg,#087f9c,#16b7b0);color:#fff}
+nav a:hover,.text-link:hover{color:#f07855}
+.eyebrow,.closing .kicker{color:#ffe07a}.kicker{color:#07869a}
+.btn{transition:transform .2s ease,box-shadow .2s ease}.btn:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(0,35,55,.16)}
+.btn-light{background:linear-gradient(135deg,#ffe27c,#ffc46b);color:#174456}
+.section h2 .accent,.accent{color:#ed805f}
+.problem-main,.interactive-card,.student,.photo-card{box-shadow:0 10px 30px rgba(10,83,105,.08);border:1px solid rgba(113,190,205,.2)}
+.problem-main{background:linear-gradient(145deg,#fff,#f2fbff)}
+.fact-card{background:linear-gradient(135deg,#c8f0e8,#d9f1ff 58%,#fff0cf)}.fact-icon{color:#07869a}
+.gallery-section{background:linear-gradient(135deg,#e5f7fb,#f2f7ff 52%,#fff1e8)}
+.filter{background:rgba(255,255,255,.8);border-color:#a8d5df;transition:all .2s ease}
+.filter:hover{border-color:#ed896c;color:#c45c42}
+.filter.active{background:linear-gradient(135deg,#087f9c,#12a6a4);border-color:transparent;color:white;box-shadow:0 5px 14px rgba(8,127,156,.2)}
+.photo-card{border-radius:16px;transition:transform .22s ease,box-shadow .22s ease}
+.photo-card:hover{transform:translateY(-5px);box-shadow:0 16px 34px rgba(10,83,105,.15)}
+.photo-card .info{background:linear-gradient(180deg,#fff,#fbfeff)}.photo-card .info span{color:#e47b5e}
+.action-grid .interactive-card:first-child{background:linear-gradient(145deg,#fff,#effaff)}
+.action-grid .interactive-card:last-child{background:linear-gradient(145deg,#fff,#fff6e9)}
+.crossword-card{background:linear-gradient(145deg,#fff,#f0fbff);border-color:#bfe4eb;box-shadow:0 14px 36px rgba(5,90,115,.1)}
+.crossword-group h4,.crossword-feedback{color:#087f9c}
+.crossword-square{background:#f1fbff;border-color:#8bcbd8}.crossword-black{background:#07566a;border-color:#07566a}
+.survey-card label{background:#fff7e9;border:1px solid #f4e2c4}.survey-card input{accent-color:#07869a}
+.progress-track{background:#dceff2}.progress-track>div,.poll-fill{background:linear-gradient(90deg,#0ca6a6,#7bcf9b)}
+.tips{background:linear-gradient(120deg,#d9f4ec,#e3f2ff 65%,#fff0d9)}.tip-grid span{color:#e47b5e}
+.journey-section{background:linear-gradient(180deg,#fff,#f2fbff)}
+.timeline>div{border-top:3px solid #75c9c5;background:linear-gradient(180deg,rgba(221,247,246,.5),transparent);padding:18px 14px;border-radius:0 0 10px 10px}
+.timeline b{color:#e47b5e}
+.video-panel{background:linear-gradient(120deg,#e3f5ef,#e5f3ff 60%,#fff1dc);border:1px solid #cde9e8}
+.student:first-child{background:linear-gradient(145deg,#fff,#effaff)}.student:last-child{background:linear-gradient(145deg,#fff,#fff4eb)}
+.avatar{background:linear-gradient(135deg,#c9f0e5,#bde8f4);color:#07566a}
+.avatar.second{background:linear-gradient(135deg,#ffe2c9,#f8d9e7);color:#8a4e63}
+.closing{background:radial-gradient(circle at 15% 20%,#128b9c 0,transparent 32%),radial-gradient(circle at 85% 75%,#e17a5c 0,transparent 28%),linear-gradient(120deg,#063d58,#07566a 60%,#087f82)}
+footer{background:#e7f5f7;border-top:1px solid #cde8ec}.lightbox{background:rgba(3,35,52,.96)}
+button:focus-visible,a:focus-visible{outline-color:#f19a62}
+@media(max-width:640px){.nav{background:rgba(239,250,255,.98)}.nav nav{background:#effaff}.timeline>div{padding:14px 10px}}
